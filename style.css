@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Byekan";
+    src: url("Byekan.ttf") format("truetype"),
+    url("Byekan.woff") format("woff");
+}
+@font-face {
+    font-family: "lalezar";
+    src: url("lalezar.ttf") format("truetype"),
+    url("Byekan.woff") format("woff");
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Byekan;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    list-style-type: none;
+    text-align: center;
+    height: 550px;
+    background-image: url("background.png");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.header li{
+    display: inline-block;
+}
+.header a{
+    display: inline-block;
+    padding: 30px;
+    text-decoration: none;
+    color: inherit;
+    
+}
+.header a:hover{
+    color: orange;
+}
+span{
+    color: orange;
+}
+.header h1{
+    font-family: lalezar;
+    font-size: 55px;
+    padding: 45px;
+}
+.header p{
+    border: 1px solid white;
+    width: 500px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    padding: 15px;
+    margin-top: 45px;
+}
+.member{
+    text-align: center;
+
+}
+.member h2{
+    padding: 25px;
+    
+}
+.member li{
+    width: 350px;
+    display: inline-block;   
+    margin: 15px;
+    box-shadow: 0 0 5px;
+    border-radius: 8px;
+    
+}
+.member img{
+    width: 100%;
+}
+
+.bio{
+    padding: 20px;
+    text-align: justify;
+}
+.about{
+    height: 700px;
+    background-image: url("bg.jpg");
+    background-color: #565353;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+.circle{
+    height: 600px;
+    width: 600px;
+    background-color: rgb(153 149 149 / 50%);
+    margin: auto;
+    padding: 80px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    
+}
+.circle h2{
+    font-size: 40px;
+}
+.circle p{
+    padding-top: 30px;
+    text-align: justify;
+}
+.footer{
+    height: 150px;
+    background-color: lightgray;
+    padding-top: 50px;
+    text-align: center;
+}
+.social{
+    height: 50px;
+    background-color: gray;
+    
+}
+.social img{
+    width: 50px;
+    margin: 0 8px;
+}
+
